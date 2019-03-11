@@ -1,0 +1,16 @@
+#MQTT Config
+#MQTT username
+spring.mqtt.username : admin
+#MQTT password
+spring.mqtt.password : password
+#MQTT server address
+spring.mqtt.url : tcp://127.0.0.1:61613
+#MQTT client id
+spring.mqtt.client.id : mqttId
+#MQTT default topic
+spring.mqtt.default.topic : topic
+#MQTT topics
+spring.mqtt.topics: topics
+
+#MQTT qusValues
+spring.mqtt.qosValues: 1
